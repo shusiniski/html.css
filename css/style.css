@@ -1,0 +1,340 @@
+/*Common*/
+
+html,body{
+	font-family: Arial;
+}
+
+.img,.text{
+	width: 50%;
+	float: left;
+	padding-top: 100px;
+}
+  
+  .text{
+  	padding-top: 140px;
+  }
+
+
+.button{
+	   border: none;
+       	color: white;
+       	background: #9ACD32;
+       	font-size: 20px;
+       	padding: 15px 25px;
+       	border-radius: 30px;
+       	margin-top: 40px;
+       	text-transform: uppercase;
+       	transition: background .3s;
+       }
+
+           .button:hover{
+           	background: #32CD32;
+           	cursor: pointer;
+}
+
+
+#menu #welcome  #resource #best #quality #imgs #check #contact #footer{
+	width: 100%;
+}
+
+.margin{
+	width: 1200px;
+	margin: 0 auto;
+	/*border: 1px solid white;*/
+}
+
+/*Hiderin icersindeki elementlere aid olan css kodlari*/
+
+#mainDiv #header{
+	background: url(../images/header.jpg) center center;
+	background-size: cover;
+}
+
+
+
+#mainDiv #header #menu{
+
+	height: 50px;
+	/*background: red;*/
+	border-bottom: 1px solid #DBAF92;
+
+}
+
+
+   #header #menu a{
+   	color:#F7DCCA;
+   	font-size: 20px;
+   	text-decoration: none;
+   	line-height: 2.5;
+   	letter-spacing: 5px;
+   	transition: color .3s
+   }
+
+    #header #menu a:hover{
+    	color: white;
+    }
+
+    #header #menu ul{
+    	float: right;
+    }
+
+       #header #menu li{
+       	display: inline-block;
+       	color: #E1D4CC;
+       	font-size: 17px;
+       	line-height: 3;
+       	padding: 0 15px;
+       	transition: color 3s;
+       }
+
+           #header #menu li:first-child{
+           	color: #9BCD45;
+           }
+
+           #header #menu li:hover{
+           	color: white;
+           	cursor: pointer;
+           }
+ 
+
+
+
+#mainDiv #header #welcome{
+
+	height: 610px;
+	/*background: blue;*/
+	text-align: center;
+}
+       #header #welcome h1{
+       	color: white;
+       	font-size: 80px;
+       	font-weight: normal;
+       /*	text-align: center;*/
+       	padding-top: 180px;
+       }
+
+       #header #welcome p{
+       	color: #B0B0B1;
+       	/*text-align: center;*/
+       	font-size: 18px;
+       	padding-top: 40px;
+       }
+
+      /* #header #welcome button{
+       	border: none;
+       	color: white;
+       	background: #9ACD32;
+       	font-size: 20px;
+       	padding: 15px 25px;
+       	border-radius: 30px;
+       	margin-top: 40px;
+       	text-transform: uppercase;
+       	transition: background .3s;
+       }
+
+           #header #welcome button:hover{
+           	background: #32CD32;
+           	cursor: pointer;
+           }*/
+
+
+
+/*Contentin icerisindeki elementlere aid olan CSS kodlari*/
+
+#mainDiv #content #resource{
+
+	height: 315px;
+	background: #9ACD32;
+	text-align: center;
+}
+
+     #content #resource i{
+     	color: white;
+     	font-size: 50px;
+     	margin-top: 75px;
+     }
+
+     #content #resource h2{
+     	color: white;
+     	font-size: 30px;
+     }
+
+     #content #resource p{
+     	color: #DFEFBE;
+     	width: 700px;
+     	margin: 0 auto;
+     	margin-top: 20px;
+     	line-height: 1.5;
+     }
+
+
+#mainDiv #content #best{
+	
+	height: 570px;
+	/*background: white;*/
+}
+
+     #content #best .img img{
+     	height: 370px;
+     	border-radius: 50%;
+     }
+
+          #content #best .text h2{
+          	font-size: 30px;
+          	line-height: 2;
+          }
+
+          #content #best .text p{
+          	color: #777777;
+          	font-size: 19px;
+          	line-height: 1.4;
+          }
+
+
+
+#mainDiv #content #quality{
+	
+	height: 570px;
+	background: #222222;
+}
+
+   #content #quality .img img{
+     	height: 370px;
+     	border-radius: 50%;
+     }
+
+          #content #quality .text h2{
+          	font-size: 30px;
+          	line-height: 2;
+          	color: white;
+            padding-left: 50px;
+           margin-top: -50px;
+          }
+
+          #content #quality .text p{
+          	color: #B9B9B9;
+          	font-size: 24px;
+          	line-height: 1.1;
+          	padding-left: 50px;
+          }
+
+
+          #content #quality .text .button{
+          	background: white;
+          	color: #222222;
+          	margin-left: 50px;
+          }
+
+               #content #quality .text .button:hover{
+               	background: #FFFFFF;
+               }
+
+
+
+
+
+
+
+
+#mainDiv #content #imgs{
+	
+	height: 200px;
+	background: brown;
+}
+      #content #imgs .imgBox{
+      	width: 31.85%;
+      	float: left;
+      	height: 200px;
+      	color: white;
+      	text-align: center;
+      	font-size: 40px;
+      	line-height: 5;
+      	border: 10px solid transparent;
+
+
+      	
+      }
+
+       #content #imgs .imgBox:first-child{
+       	background: url(../images/writing.jpg) 40% 50%;
+       	background-size: 110%;
+       }
+
+       #content #imgs .imgBox:nth-child(2){
+       	background: url(../images/concert.jpg) 40% 50%;
+       	background-size: 110%;
+       }
+
+       #content #imgs .imgBox:last-child{
+       	background: url(../images/pencil_sharpener.jpg) 40% 50%;
+       	background-size: 110%;
+       }
+
+       #content #imgs .imgBox:hover{
+       
+       	background-size: 120%;
+       	border: 10px solid #E2E1DE;
+       }
+
+
+
+#mainDiv #content #check{
+	
+	height: 300px;
+	background: white;
+	text-align: center;
+}
+   #content #check i{
+   	font-size: 50px;
+   	color: #9ACD32;
+   	margin-top: 20px;
+
+   }
+
+   #content #check h2{
+   	font-size: 30px;
+   	line-height: 2;
+   }
+
+   #content #check p{
+   	color: #7B7B7B;
+   	font-size: 19px;
+   	line-height: 1.4;
+   	width: 80%;
+   	margin: 0 auto;
+   }
+
+   #content #check .button{
+   	margin: 10px;
+   }
+
+
+
+#mainDiv #content #contact{
+	
+	height: 420px;
+	background: #9ACD32;
+	color: white;
+	text-align: center;
+	font-size: 30px;
+
+}
+   #content #contact h2:first-child{
+   	padding-top: 70px;
+   }
+
+
+
+/*Footerin icerisindeki elementlere aid olan css kodlari*/
+
+#mainDiv #footer{
+	
+	height: 125px;
+	background: white;
+	text-align: center;
+}
+
+  #footer p{
+  	color: #665F72;
+  	padding-top: 60px;
+  }
